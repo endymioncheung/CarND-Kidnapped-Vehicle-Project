@@ -35,6 +35,7 @@ Add Gaussian noises to each particle, using the motion (bicycle) model to calcul
 
 ### 3. Transform, Associate and update each of the particle weight
 
+![](report_images/homogenous_transformation.png)
 ![](report_images/particle_filter_update_weight.png)
 
 Update the particle weight by first calculating the multi-variate Gaussian probability, which requires the transformed observation of the particle and its nearst landmark. So, for each particle, we calculate the distance between each particle and landmark. If the distance is within the sensor range, then we transform observation from car to map coordinates, calculate and store the results of the distance to each landmark.
