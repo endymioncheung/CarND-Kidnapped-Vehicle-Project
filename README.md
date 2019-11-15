@@ -9,7 +9,7 @@ This repository contains all the code needed to complete the final project for t
 
 ## Kidnapped Robot Problem
 
-is In robotic world, it is common to face the situation where the autonomous robot in operation being placed in an unknown location, generally refer to a classical [Kidnapped robot problem](https://en.wikipedia.org/wiki/Kidnapped_robot_problem).
+In robotic world, it is common to face the situation where the autonomous robot in operation being placed in an unknown location, generally refer to a classical [Kidnapped robot problem](https://en.wikipedia.org/wiki/Kidnapped_robot_problem).
 
 Localization algorithm such as particle filters can help to localize the robot given a map and some GPS signals. The effectiveness of the localization algorithm can be assessed by testing the robot's ability to recover from catastraphic loalization failures.
 
